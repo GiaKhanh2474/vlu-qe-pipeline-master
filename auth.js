@@ -17,7 +17,7 @@ function login(username, password) {
   if (LOCKED_ACCOUNTS.includes(username)) {
     return false;
   }
-  if (username === 'admin' && password === '9999') {
+  if (username === 'admin' && password === '123') {
     return true;
   }
   return false;
