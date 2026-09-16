@@ -1,0 +1,13 @@
+{
+  "name": "vlu-qe-pipeline-master",
+  "version": "1.0.0",
+  "description": "CI/CD pipeline 2 tang - Smoke Test & Regression Test (Lab 01 V2.0 - Software Testing)",
+  "main": "auth.js",
+  "scripts": {
+    "test:smoke": "jest auth.smoke.test.js",
+    "test:regression": "jest auth.regression.test.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
