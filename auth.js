@@ -5,6 +5,7 @@ const LOCKED_ACCOUNTS = ['locked_user', 'banned_user'];
  * Kiểm tra thông tin đăng nhập.
  * Trả về true nếu hợp lệ (admin/123, tài khoản không bị khóa),
  * false trong mọi trường hợp còn lại.
+ * sửa lại thử chặng 4, test 
  */
 function login(username, password) {
   if (typeof username !== 'string' || typeof password !== 'string') {
